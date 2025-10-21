@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "types": ["node", "express"],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
+    ]
+  
+  },
+  "include": ["src/**/*.ts", "src/app.ts"],
+  "exclude": ["node_modules", "dist"]
+}
